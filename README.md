@@ -5,11 +5,13 @@ A comprehensive cybersecurity platform built with Node.js backend and React fron
 ## Features
 
 ### Core Modules
+- **Dashbord**: Role-based dashboard for cybersecurity audits, risk tracking, and compliance tasks.
 - **User & Auditor Management**: Role-based access control (Admin, Auditor, Auditee)
 - **Organization Profile**: Multi-organization support with detailed profiling
-- **Asset Inventory**: Comprehensive asset management with CIA classification
+- **Information Asset Inventory**: Comprehensive asset management with CIA classification
 - **Threat & Vulnerability Identification**: OWASP Top 10 vulnerability database
 - **Risk Assessment Engine**: Automated risk calculation (Likelihood × Impact)
+- **Risk Assessment**: Risk Assessment identifies threats, scores risk (Likelihood x Impact), and prioritizes mitigation actions.
 - **Control Audit Checklist**: OCTAVE Allegro compliance framework
 - **Audit Evidence Collection**: File upload and evidence management
 - **Compliance Scoring**: Real-time compliance metrics and visualization
