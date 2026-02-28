@@ -1,4 +1,4 @@
-# AI-Assisted Cybersecurity Risk Assessment & Security Audit Platform
+# Cyber-security-Audit-and-Risk-Assessment 
 
 A comprehensive cybersecurity platform built with Node.js backend and React frontend, featuring AI-powered vulnerability analysis, risk assessment, and security audit capabilities.
 
