@@ -1,0 +1,521 @@
+
+
+===== PAGE 1 =====
+SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+  
+  
+  
+Risk Management for PUIS (President University Information 
+System) Using OCTAVE Allegro Method 
+Wilbert Leonard Harriman1, Shafa Nabilah Rizqullah Famahira2, Nailha Sakhila Dewi3, Songjie Li4 
+1Study Program of Informatics, Faculty of Computer Science, President University, Kab. Bekasi, Indonesia, email: wilbert.harriman@student.president.ac.id 
+2Study Program of Informatics, Faculty of Computer Science , President University, Kab. Bekasi, Indonesia, email: shafa.famahira@student.president.ac.id 
+3Study Program of Informatics, Faculty of Computer Science , President University, Kab. Bekasi, Indonesia, email: nailha.dewi@student.president.ac.id 
+4Study Program of Informatics, Faculty of Computer Science , President University, Kab. Bekasi, Indonesia, email: songjie.li@student.president.ac.id 
+Corresponding  Author: Wilbert Leonard Harriman 
+ABSTRACT — An information system (IS) is a system that provides information within the organization users. Inside an 
+information system lies important credentials of its users to be utilized for its organization productivity. This being said, it must be 
+noted that a good information system is also equipped with good security measurement. Without proper management and good care 
+within its system, the system is vulnerable and susceptibl e to certain cyberattacks in the future.  In the mentioned scenario, risk 
+management must be conducted to ensure such flaws don’t exist within the system. It is an essential and important part of any well-
+functioning information system. This tool helps the organization to identify assets to be secured from potential attacks and identify 
+such attacks in the early stages before it happens in the future. There are several tools available—including its holistic framework—
+to ensure risk assessment can be carried out properly in the organization. The goal of this report is to assess the security level within 
+President University Information System (PUIS), enlist all of its important assets, describe its assets, and identify possible threats—
+including its risk level—by validating the usage of Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE) 
+Allegro risk assessment methodology. OCTAVE Allegro is a streamlined risk assessment method created by Carnegie Mellon 
+University’s Software Engineering  Institute. OCTAVE Allegro provides its assessor a robust framework on how to protect 
+important assets within an organization and anticipate potential future threats that may occur. In addition, OCTAVE Allegro i s 
+relatively easy to use by assessor as its frameworks are readily available to be accessed on the internet.   
+ 
+ 
+KEYWORDS — OCTAVE Allegro, PUIS, Risk Management. 
+I. INTRODUCTION 
+An information system (IS) risk assessment is the formal 
+process that enables IS risks to be identified and mitigated.  The 
+risk assessment is designed to identify IS assets and to provide 
+vulnerability and threat descriptions, an approach for classifying 
+risks, and a risk mitigation plan. (Keating, 2014).   There are 
+several risk assessment tools used worldwide, one of them 
+includes Operationally Critical Threat, Asset, and Vulnerability 
+Evaluation (OCTAVE) Allegro.  
+According to the official OCTAVE Allegro document, 
+OCTAVE Allegro main goals are to develop qualitative risk 
+evaluation criteria that describe the organization’s operational 
+risk tolerances, identify assets that are important to the mission 
+of the organization, identify vulnerabilities and threats to those 
+assets, and determine and evaluate the potential consequences to 
+the organization if threats are realized. The approach being 
+introduced in this technical report is designed to allow holistic 
+assessment o f an organization’s operational risk environment 
+with the goal of producing more robust results without the need 
+for broad and complex risk assessment knowledge. 
+ President University Information System (PUIS) is an 
+online IS platform built by President University’s software 
+engineers to provide ease of connection between its university 
+residence—including the students, lecturers, and staff. PUIS —
+as the majority inf ormation system does —consists of a vast 
+amount of important credentials within its system, this includes 
+the students’ records, billing information, and backup data.  
+ Information system security is expected to have played 
+a role in safeguarding the organization assets. It is noted that the 
+security must be holistic in order to do its intended work. This 
+report will be assessing PUIS using OCTAVE Allegro method 
+to assess the security in a holistic manner using steps provided 
+in OCTAVE Allegro framework, such as Establish Driver, 
+Profile Assets, Identify Threats, and Identify and Mitigate, as 
+presented in Figure 1. 
+ 
+ 
+Figure 1. OCTAVE Allegro Roadmap 
+ 
+II. METHODOLOGY 
+The OCTAVE Allegro methodology consists of four overall 
+phases that will be further subdivided into eight steps. The 
+OCTAVE Allegro Documentation provided us with a clear 
+framework about each step on each mentioned phase, as shown 
+in Figure 1.  
+The first phase is to establish driver. The drivers are used as 
+reference for risk measurement criteria as initial step. Using this 
+initial framework, an organization may have a clear view on 
+impact areas are the most significant to its mission and business 
+objectives. The OCTAVE Allegro method provides a standard 
+
+
+
+===== PAGE 2 =====
+ SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+ 
+set of worksheet templates to create these criteria in several 
+impact areas and then to prioritize them (Caralli et al., 2007). 
+The second phase is to profile assets. This step is divided into 
+two steps, which are developing asset profiles and identifying 
+asset containers. Asset profiles development must include the 
+essence of the asset and description of its features’ uniqueness, 
+characteristics, and value. The definition must be non -
+ambiguously defined to provide information about the 
+importance of the asset. Asset containers include physical, 
+electronic, and human containers. It is noted that information 
+assets reside not only in  containers within an organization’s 
+boundaries but they also often reside in containers that are not 
+in the direct control of the organization (Caralli et al., 2007).  
+The third phase is to identify threats. This step is further 
+divided into two steps, which are identifying areas of concern 
+and identifying threat scenarios. Identifying areas of concern 
+include the way assessors brainstorm ideas to provide 
+hypothetical sc enarios and conditions that may threaten an 
+organization's assets and their respective devastating outcomes. 
+Threat scenario is a framework that gives detailed chronological 
+order of a functional and hypothetical threat scenario by creating 
+a certain motiv ation-driven relationship between threat actors 
+and assets.  The areas of concern captured in the previous step 
+are expanded into threat scenarios that further detail the 
+properties of a threat (Caralli et al., 2007).  
+The fourth phase is to identify and mitigate risks. This phase 
+is further divided into three steps, which are identifying risks, 
+analyzing risks, and selecting mitigation approaches. Identifying 
+risks include how we complete the picture made in the previous 
+step, giving the undesirable consequences of the threat, if it 
+exists.  Analyzing risks include how we quantify threats 
+described in the previous steps. The score given is relative to the 
+assessor needs by analyzing the likelihood and impact of the 
+threat. After previous steps being done, an organization may 
+choose certain mitigation routes that consider the value of the 
+assets being protected, the containers, and the organization 
+(Caralli et al., 2007). 
+ We analyze the whole eight steps to conduct a risk 
+mitigation plan outlining necessary measures to enhance the 
+security level of the PUIS by referring to the provided Allegro 
+Worksheet framework. 
+2.1 Step 1 (Define Risk Measurement Criteria) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+===== PAGE 3 =====
+SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+  
+  
+  
+ 
+2.2 Step 2 (Develop Information Asset Profile) 
+ 
+Allegro 
+Worksheet 8 
+Critical Information Asset Profile 
+Critical Asset Rationale for 
+Selection 
+Description 
+Database 
+Academic  
+The Academic 
+Database was 
+chosen as a critical 
+asset because it is 
+the center of all 
+student academic 
+activities. All of 
+these processes are 
+important until the 
+student's 
+graduation. If 
+something goes 
+wrong, or the 
+system is 
+inaccessible, it can 
+affect the reputation 
+of the institution. 
+Academic 
+database A 
+collection of data 
+that stores all 
+information 
+related to the 
+student's 
+academic 
+process. This 
+data is very 
+important to be 
+used by students, 
+lecturers, and 
+academics. And 
+this system is the 
+main source of 
+academic 
+information in 
+PUIS (President 
+University 
+Information 
+System) 
+Owner 
+IT Unit and Academic Bureau 
+Security Requirements 
+Confidentiality Only authorized 
+personnel can view 
+this information 
+asset, as follows: 
+Only President 
+University 
+students, 
+President 
+University 
+lecturers, 
+academic 
+departments, and 
+the PUIS 
+(President 
+University 
+Information 
+System) admin 
+system can view 
+data on grades, 
+GPAs, or data 
+related to 
+lectures at 
+President 
+University. And 
+of course it 
+cannot be 
+accessed by 
+outsiders. 
+Integrity Only authorized 
+personnel can 
+modify this 
+information asset, 
+as follows: 
+Changes to 
+academic data 
+such as grades, 
+GPA, graduation 
+status and data 
+related to 
+lectures may 
+only be made by 
+the teaching 
+lecturer at 
+President 
+University or the 
+academic 
+department 
+officially.  
+Availability This asset must be 
+available for these 
+personnel to do 
+their jobs, as 
+follows: 
+Especially 
+during the 
+enrollment 
+system process, 
+grade input, 
+GPA result 
+announcement 
+Announcement 
+of graduation 
+results 
+This asset must be 
+available for 18-24 
+hours, 
+7 days/weeks ,52 
+weeks/year 
+ 
+Others This asset has 
+special regulatory 
+compliance 
+protection 
+requirements, as 
+follows: 
+Academic Data 
+is included in 
+data that cannot 
+be misused and 
+must meet 
+personal data 
+protection 
+standards in 
+accordance with 
+data protection 
+regulations in 
+Indonesia 
+(Personal Data 
+Protection Law) 
+Most Important Security Requirement 
+   
+Confidentiality 
+ 
+Integrity 
+ 
+Availability 
+ 
+Other 
+
+
+
+===== PAGE 4 =====
+ SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+ 
+ 
+ 
+ 
+2.3 Step 3 (Identify Information Asset Containers) 
+ 
+Allegro 
+Worksheet 9a 
+INFORMATION ASSET RISK 
+ENVIRONMENT MAP (TECHNICAL) 
+INTERNAL 
+CONTAINER DESCRIPTION OWNER(S) 
+1. PUIS Servers and Databases 
+(hosting user, academic, financial 
+data) 
+Software 
+Development  
+(Soft-Dev) 
+2. PUIS Web Portals and User 
+Interfaces 
+Software 
+Development  
+(Soft-Dev) 
+3. Backup Storage Systems (on-site 
+and off-site backups) 
+Software 
+Development  
+(Soft-Dev) 
+4. Credential Management Systems 
+(authentication data) 
+Software 
+Development  
+(Soft-Dev) 
+                                                                             
+EXTERNAL  
+ 
+CONTAINER DESCRIPTION OWNER(S) 
+1. Internet Service Providers (network 
+access to PUIS) 
+ 
+ 
+External ISPs 
+2. Cloud or Third-party Hosting 
+Services (if any used for backup or 
+services) 
+ 
+External Vendors 
+(if applicable) 
+ 
+ 
+Allegro 
+Worksheet 9b 
+INFORMATION ASSET RISK 
+ENVIRONMENT MAP (PHYSICAL) 
+INTERNAL 
+CONTAINER DESCRIPTION OWNER(S) 
+1. PUIS Data Center / Server Room 
+(physical servers) 
+ 
+ 
+IT and Hardware 
+Development 
+2. Backup Storage Facilities (physical 
+media, tapes, drives) 
+ 
+ 
+IT and Hardware 
+Development 
+3. Office Locations where PUIS staff 
+operate (Building A, 2nd Floor) 
+ 
+ 
+IT and Hardware 
+Development 
+                                                                            
+EXTERNAL 
+ 
+CONTAINER DESCRIPTION OWNER(S) 
+1. External Data Centers or Cloud 
+Storage Facilities (if used) 
+ 
+ 
+External Vendors 
+2. Network Infrastructure outside 
+campus (ISP facilities) 
+ 
+ 
+External ISPs 
+ 
+ 
+Allegro  
+Worksheet 9c 
+INFORMATION ASSET RISK 
+ENVIRONMENT MAP (PEOPLE) 
+INTERNAL PERSONNEL 
+NAME OR ROLE/RESPONSIBILITY DEPARTMENT OR 
+UNIT 
+1. PUIS Software Development Team 
+ 
+ 
+Software 
+Development  
+(Soft-Dev) 
+2. IT Support and Maintenance Staff 
+ 
+ 
+IT and Hardware 
+Development 
+3. Academic Bureau Staff (manage 
+academic data) 
+ 
+Academic Bureau 
+4. Finance & Accounting Staff 
+(manage financial data) 
+ 
+Finance & 
+Accounting 
+                                                                         
+EXTERNAL PERSONNEL 
+ 
+CONTRACTOR, VENDOR, ETC. ORGANIZATION 
+1. Internet Service Providers (network 
+access) 
+ 
+External ISPs 
+2. Third-party Vendors (cloud 
+services, backup providers) 
+ 
+External Vendors 
+
+
+
+===== PAGE 5 =====
+SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+  
+  
+  
+2.4 Step 4-8 (Identify Areas of Concern, Determine Threat 
+Scenarios, Identify Risks, Analyze Risks, Select Mitigation 
+Approach) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+===== PAGE 6 =====
+ SECURITY RISK MANAGEMENT AND AUDIT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+III. RESULTS AND DISCUSSION 
+It is noted from the asset-listing step for PUIS that the assets 
+included are academic database and payment history (Student 
+Financial History). These are important in a university 
+information system as they are the one that provide support for 
+the university in a digital environment. They may be susceptible 
+to certain threats that are caused internally or externally.  
+ In order to protect the assets mentioned above, it is 
+imperative to note that the containers of these assets must be 
+protected primarily. OCTAVE Allegro provided us with a 
+framework to enlist these containers, which include human, 
+technical, and physical c ontainers. These materials are used to 
+derive mitigation measurements to prevent any disruption in 
+case of undesirable situations. 
+For the authors, these steps are holistic and crucial for each 
+of it as it provides the assessors the broad mapping of the assets 
+(with its description), the containers of the assets (including the 
+internal and external owner), any potential threats that m ay 
+target these assets and containers (including its vector), and 
+mitigation for each asset. This includes risk assessment on its 
+own to view individual risk for each hypothetical threat scenario 
+that may happen to a certain asset and what to prioritize in the 
+case of the university environment’s needs. 
+IV. CONCLUSION 
+Using OCTAVE Allegro methods for risk assessment 
+towards the President University Information System, 
+generating 2 main assets with each of their area of concerns, 
+where each asset is made mitigation plan as action by 
+considering the hypothetical threats a nd risk score.  Mitigation 
+measures have been determined for each asset and summarized 
+into 10 statements  
+REFERENCES 
+[1] Suroso, J. S., & Fakhrozi, M. A. (2018). Assessment of information 
+system risk management with octave allegro at education institutions. 
+Procedia Computer Science, 135, 202 -213. 
+https://www.sciencedirect.com/science/article/pii/S1877050918314558/
+pdf?md5=de063882bbee6c14e19c8d978f360d04&pid=1-s2.0-
+S1877050918314558-main.pdf 
+[2] Keating, C. G. (2014). Validating the octave allegro information systems 
+risk assessment methodology: a case study. Nova Southeastern University. 
+https://media.proquest.com/media/hms/ORIG/2/3m3hI?_s=7Bqu7fWpP
+%2BGhI5ciquieitRJJCk%3D  
+[3] Caralli, R., Stevens, J., Young, L., & Wilson, W. (2007). Introducing 
+OCTAVE Allegro: Improving the Information Security Risk Assessment 
+Process. (SEI Report CMU/SEI -2007-TR-012). 
+https://www.sei.cmu.edu/library/introducing-octave-allegro-improving-
+the-information-security-risk-assessment-process/  
+ 
+APPENDIX 
+ 
+
