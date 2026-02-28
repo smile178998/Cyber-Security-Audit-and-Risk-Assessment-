@@ -10,7 +10,7 @@ A comprehensive cybersecurity platform built with Node.js backend and React fron
 - **Asset Inventory**: Comprehensive asset management with CIA classification
 - **Threat & Vulnerability Identification**: OWASP Top 10 vulnerability database
 - **Risk Assessment Engine**: Automated risk calculation (Likelihood × Impact)
-- **Control Audit Checklist**:OCTAVE Allegro compliance framework
+- **Control Audit Checklist**: OCTAVE Allegro compliance framework
 - **Audit Evidence Collection**: File upload and evidence management
 - **Compliance Scoring**: Real-time compliance metrics and visualization
 - **Audit Findings Generator**: Automated finding generation with severity levels
