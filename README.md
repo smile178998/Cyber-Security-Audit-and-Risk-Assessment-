@@ -10,7 +10,7 @@ A comprehensive cybersecurity platform built with Node.js backend and React fron
 - **Asset Inventory**: Comprehensive asset management with CIA classification
 - **Threat & Vulnerability Identification**: OWASP Top 10 vulnerability database
 - **Risk Assessment Engine**: Automated risk calculation (Likelihood × Impact)
-- **Control Audit Checklist**: ISO/IEC 27001 compliance framework
+- **Control Audit Checklist**:OCTAVE Allegro compliance framework
 - **Audit Evidence Collection**: File upload and evidence management
 - **Compliance Scoring**: Real-time compliance metrics and visualization
 - **Audit Findings Generator**: Automated finding generation with severity levels
@@ -19,7 +19,7 @@ A comprehensive cybersecurity platform built with Node.js backend and React fron
 
 ### Security Features
 - JWT-based authentication
-- Password hashing with bcrypt
+- Password hashing with bcryptjs
 - Role-based access control
 - Input validation and sanitization
 - Rate limiting
@@ -92,92 +92,42 @@ npm start
 ### Administrator
 - Email: admin@cybersec.com
 - Password: admin123
-- Role: Full system access
+- Role: admin
 
 ### Auditor
 - Email: auditor@cybersec.com
 - Password: auditor123
-- Role: Audit management and reporting
+- Role: auditor
 
 ### Auditee
 - Email: auditee@cybersec.com
 - Password: auditee123
-- Role: View assigned audits only
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
-
-### Users
-- `GET /api/users` - Get all users (Admin only)
-- `POST /api/users` - Create user (Admin only)
-- `PUT /api/users/:id` - Update user
-- `DELETE /api/users/:id` - Delete user (Admin only)
-
-### Organizations
-- `GET /api/organizations` - Get all organizations
-- `POST /api/organizations` - Create organization
-- `PUT /api/organizations/:id` - Update organization
-- `DELETE /api/organizations/:id` - Delete organization
-
-### Assets
-- `GET /api/assets` - Get all assets
-- `POST /api/assets` - Create asset
-- `PUT /api/assets/:id` - Update asset
-- `DELETE /api/assets/:id` - Delete asset
-
-### Audits
-- `GET /api/audits` - Get all audits
-- `POST /api/audits` - Create audit
-- `PUT /api/audits/:id` - Update audit
-- `DELETE /api/audits/:id` - Delete audit
-
-### Risk Assessment
-- `GET /api/risk-assessment` - Get risk assessment data
-- `POST /api/risk-assessment` - Create risk assessment
-
-### AI Assistant
-- `POST /api/ai/consult` - Get AI consultation
-- `POST /api/ai/generate-report` - Generate AI report
-
-## Database Schema
-
-### Tables
-- `users` - User accounts and roles
-- `organizations` - Organization profiles
-- `assets` - Asset inventory
-- `vulnerabilities` - OWASP vulnerability database
-- `asset_vulnerabilities` - Asset-vulnerability relationships
-- `audit_tasks` - Audit task management
-- `audit_checklist` - Audit checklist items
-- `audit_evidence` - Evidence collection
-- `audit_findings` - Audit findings
-- `ai_consultations` - AI consultation history
+- Role: auditee
 
 ## Usage Guide
 
-### For Administrators
+### For Admin
 1. Create and manage user accounts
 2. Set up organizations and assign auditors
 3. Monitor system compliance and audit progress
 4. Generate comprehensive reports
+5. Collect evidence and document findings
+6. Generate audit reports with AI assistance
 
-### For Auditors
+### For Auditor
 1. Create and manage audit tasks
 2. Conduct security assessments
 3. Collect evidence and document findings
 4. Generate audit reports with AI assistance
 
-### For Auditees
+### For Auditee
 1. View assigned audits
 2. Provide evidence and respond to findings
 3. Track compliance status
 
 ## Security Considerations
 
-- All passwords are hashed using bcrypt
+- All passwords are hashed using bcryptjs
 - JWT tokens are used for authentication
 - Input validation is implemented on all endpoints
 - Rate limiting prevents abuse
@@ -207,21 +157,9 @@ ai-cybersecurity-platform/
 - `npm run client` - Start frontend
 - `npm run install-all` - Install all dependencies
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support and questions, please contact the development team or create an issue in the repository.
 
 ---
 
