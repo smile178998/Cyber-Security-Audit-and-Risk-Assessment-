@@ -84,7 +84,7 @@ npm start
 ```
 
 5. **Access the Application**
-- Frontend: http://localhost:3001
+- Frontend: http://localhost:3000
 - Backend API: http://localhost:3000
 
 ## Default Accounts
