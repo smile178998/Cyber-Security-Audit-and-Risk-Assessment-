@@ -1,6 +1,6 @@
 # CYBERSEC AURA: CYBER SECURITY AUDIT AND RISK ASSESSMENT 
 
-A comprehensive cybersecurity platform built with Node.js backend and React frontend, featuring AI-powered vulnerability analysis, risk assessment, and security audit capabilities.
+This is a comprehensive cybersecurity platform built with Node.js backend and React frontend, featuring AI-powered vulnerability analysis, risk assessment, and security audit capabilities.
 
 ## Features
 
